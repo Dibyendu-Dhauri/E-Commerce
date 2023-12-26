@@ -1,0 +1,32 @@
+.popularContainer {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+
+  h1 {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: #ffffff;
+  }
+}
+
+.suggestions {
+  display: flex;
+  flex-direction: column;
+background: #ffffff;
+margin-bottom: 20px;
+  span {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: #ffffff;
+    margin-bottom: 15px;
+  }
+}

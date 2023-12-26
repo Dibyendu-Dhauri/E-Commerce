@@ -1,0 +1,88 @@
+.productContainer {
+  margin-top: 40px;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.singleProduct {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 239px;
+  height: 450px;
+  border-radius: 4px;
+  position: relative;
+  margin-left: 10px;
+}
+.productImg {
+  width: 239px;
+  height: 325px;
+  border-radius: 10px;
+}
+.productTitle {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.productPrice {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6d84ff;
+}
+
+.productRatingImg {
+  width: 116px;
+  height: 20px;
+}
+.productRating {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.wishImg {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 20px;
+  right: 20px;
+  background: none;
+}
+
+.wishImg.liked {
+  color: red;
+}
+
+.viewProductText {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 220px;
+  padding: 10px;
+  background-color:  #6D84FFB5;
+ /* Semi-transparent black background */
+  color: white;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.singleProduct:hover .viewProductText {
+  opacity: 1;
+}

@@ -1,0 +1,33 @@
+.navContainer {
+    position: relative;
+    .nav {
+      background-color: gray;
+      position: absolute;
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      width: 900px;
+      height: 83px;
+      top: 162px;
+      left: 299px;
+      padding: 21px, 42px, 20px, 40px;
+      border-radius: 20px;
+    
+      input {
+        background: #ffffff;
+        border: none;
+        outline: none;
+        width: 100%;
+        font-size: 32px;
+        font-weight: 400;
+        padding-left: 15px;
+      }
+      .searchIcon {
+        background: #ffffff;
+        padding-right: 30px;
+        width: 40px;
+        height: 40px;
+      }
+    }
+}
+
